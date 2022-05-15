@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Menu*/
+
+header .registroeinicioseccion
+{
+    color: white;
+    font-size: 18px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 30%;
+    margin: 0 5px;
+}
+
+/*LOGO*/
+header a
+{
+    color: white;
+    font-size: 24px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+header img
+{
+    width: 40px;
+}
+
+header
+{
+    position: fixed; /* posicion que se queda fija, que no se mueve de donde esta*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: rgb(6, 102, 192); 
+}
+
+header nav ul{
+    position: relative;
+    display: flex;
+}
+
+header nav ul li
+{
+   position: relative;
+   list-style: none;
+}
+
+header nav ul li a
+{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 5%;
+}
+
+/*Espacio entre la pagina y contenido*/
+section
+{
+    padding: 60px;
+}
+
+/*inicio*/
+.Inicio
+{
+    min-height: 100vh;
+}
+
+.Inicio h1{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.Inicioayuda{
+    text-align: center;
+    align-items: center;
+}
+
+/*video*/
+.ContenedorVideo
+{
+   text-align: center;
+   align-items: center;
+ 
+}
+/*redes sociales*/
+.redesSociales
+{
+    background-color: rgb(6, 102, 192);
+    padding: 2%;
+}
+
+.redesSociales div
+{
+    color: white;
+    text-align: center;
+}
+
+.imgredessociales img
+{
+    text-align: center;
+    width: 50px;
+}
+
+/*Iniciar seccion y resgistro*/
+.login h1{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.login label
+{
+    font-size: 24px;
+}
+
+.login input
+{
+    margin-top: 10px;
+    height: 60px;
+    width: 100%; 
+    font-size: 24px;
+    padding-left: 2%;
+}
+
+.botones
+{
+    text-align: center;
+}
+
+button
+{ 
+    margin-top: 20px;
+    font-size: 30px;
+    align-items: center;
+    padding: auto;
+    width: 295px;
+    height: 70px;
+    border-style: none;
+}
+
+.btn1
+{
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(0, 124, 248);
+}
+
+.btn2
+{
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+}
+
+.login span 
+{
+    
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Contacto*/
+
+.login textarea
+{
+    padding-left: 2%;
+    padding-top: 1%;
+    font-size: 24px;
+    width: 100%;
+    height: 30%;
+}
+
+/*servicios*/
+/*
+.contenedor
+{
+    display: flex;
+}
+*/
+
+.contenedor
+{
+    text-align: center;
+}
+
+.cuadrado
+{
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 450px;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 5%;
+    box-shadow: 0px 0px 6px 0.000001px;
+}
+
+.cuadrado img  
+{
+   
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.cuadrado h3
+{
+    color: rgb(2, 78, 148); 
+    font-size: 24px;
+    margin-top: 2%;
+}
+
+
+/*blog*/
+
+.cuadradoGaleria
+{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 370px;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 5%;
+    box-shadow: 0px 0px 6px 0.000001px;
+}
+
+.cuadradoGaleria img  
+{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.cuadradoGaleria h3
+{
+    color: rgb(2, 78, 148); 
+    font-size: 24px;
+    margin-top: 2%;
+}
+
+.controlablog
+{
+    text-align: center;
+}
+.controlablog a
+{
+    font-size: 30px;
+}
+
+a{
+    font-size: 30px;
+}
+
+/*servicios*/
+
+.imagenservicio img 
+{
+    border-radius: 10%;
+    width: 100%;
+
+}
+/*Anuncios web*/
+.anuncio div img    
+{
+    width: 100%;
+}
